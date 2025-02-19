@@ -1,0 +1,43 @@
+/* Header Styles */
+.header__sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+
+.header__sticky.sticky {
+  background: #fff;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+  animation: slideDown 0.5s ease forwards;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Ensure header is visible on homepage */
+.headerarea {
+  width: 100%;
+  position: relative;
+  z-index: 99;
+}
+
+.headerarea__transparent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: transparent;
+}

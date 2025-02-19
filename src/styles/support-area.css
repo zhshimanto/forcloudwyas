@@ -1,0 +1,131 @@
+.tp-support-feature-area {
+  background: var(--tp-bg-primary);
+  overflow: hidden;
+  z-index: 1;
+  padding-bottom: 100px;
+}
+
+.tp-support-feature-item {
+  background:var(--primaryColor);
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+  min-height: 160px;
+}
+
+.tp-support-feature-counter {
+  display: flex;
+  align-items: center;
+}
+
+.support-feature-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.support-feature-title span {
+  margin-right: 5px;
+}
+
+.tp-support-feature-content {
+  flex: 1;
+}
+
+.tp-support-feature-content-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.tp-support-feature-content p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.tp-support-feature-thumb {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  z-index: -1;
+}
+
+.tp-support-feature-thumb img {
+  width: 80px;
+  height: auto;
+}
+
+/* Animation classes */
+.fadeLeft {
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+.fadeRight {
+  animation: fadeInRight 1s ease-in-out;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .tp-support-feature-item {
+    margin-bottom: 30px;
+  }
+  
+  .support-feature-title {
+    font-size: 36px;
+  }
+  
+  .tp-support-feature-content-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tp-support-feature-item {
+    padding: 25px;
+  }
+  
+  .support-feature-title {
+    font-size: 32px;
+  }
+  
+  .tp-support-feature-content-title {
+    font-size: 18px;
+  }
+  
+  .tp-support-feature-content p {
+    font-size: 14px;
+  }
+}
