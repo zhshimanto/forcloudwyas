@@ -1,0 +1,21 @@
+{
+  "/blogs/[slug]/page": "app/blogs/[slug]/page.js",
+  "/api/sendEmail/route": "app/api/sendEmail/route.js",
+  "/privacy-policy/page": "app/privacy-policy/page.js",
+  "/terms-conditions/page": "app/terms-conditions/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/blogs/page": "app/blogs/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/error/page": "app/error/page.js",
+  "/faq/page": "app/faq/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/projects/business-process-optimization/page": "app/projects/business-process-optimization/page.js",
+  "/services/page": "app/services/page.js",
+  "/projects/page": "app/projects/page.js",
+  "/team/page": "app/team/page.js",
+  "/services/web-design/page": "app/services/web-design/page.js",
+  "/thank-you/page": "app/thank-you/page.js"
+}

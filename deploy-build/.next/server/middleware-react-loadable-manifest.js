@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST='{"components\\\\shared\\\\wrappers\\\\PageWrapper.js -> vanilla-tilt":{"id":6471,"files":["static/chunks/471.923a4b00d3dfe399.js"]},"libs\\\\popupVideo.js -> glightbox":{"id":6152,"files":["static/chunks/152.959f57f49ade9d29.js"]}}';
